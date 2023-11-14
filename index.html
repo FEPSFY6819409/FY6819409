@@ -36,6 +36,51 @@ body {
       background-color: #dddddd;
     }
 
+///
+/* Dropdown Button */
+.dropbtn {
+  background-color: #008FAE;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width:60px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+///
+
+
   </style>
 
   <style>
@@ -54,20 +99,46 @@ body {
   <th><h3>Table of contents</h3></th>
 </tr>
 <tr>
-  <td><a href="#Abstract">Abstract</td>
+
+<td>
+
+  <button><a href="#Abstract">Abstract</td></button>
+  
+</tr>
+
+
+<tr>
+  <td>
+  
+  <button><a href="#Introduction">Introduction</td></button>
+  
+
+  
+</tr>
+
+
+<tr>
+  <td>
+  <div class="dropdown">
+  <button class="dropbtn">Measuring Sea levels</button>
+  <div class="dropdown-content">
+  <a href="#Measuring Sea Levels:">Measuring Sea Levels<br></a>
+  <a href="#1 - ActiveVPassive">Active v Remote sensing</a>
+  </div>
+  </div>
+</tr>
+
+
+<tr>
+  <td>
+  <button>
+  <a href="#Analysis and Discussion">Analysis and Discussion</td></button>
 </tr>
 <tr>
-  <td><a href="#Introduction">Introduction</td>
-</tr>
-<tr>
-  <td><a href="#Measuring Sea Levels:">Measuring Sea Levels</td>
-  <tr><a href="#1 - ActiveVPassive">Active v Remote sensing</tr>
-</tr>
-<tr>
-  <td><a href="#Analysis and Discussion">Analysis and Discussion</td>
-</tr>
-<tr>
-  <td><a href="#References">References</td>
+  <td>
+  <button>
+  <a href="#References">References</td></button>
+  
 </tr>
    
 </table> 
