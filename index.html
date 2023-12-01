@@ -11,7 +11,7 @@
    <h1><b>ENG0018 Computer Laboratory 2023/24</b></h1>
    <h2> Student URN: 6819409</h2>
    <hr>
-   <h2 style="font-familly:calibri:"><b>Conference paper: How satellites are used in our daily lives</b></h2>
+   <h2 style="font-familly:calibri:"><b>Conference paper: How do satellites use Passive and Active remote sensing to map out features on Earth?</b></h2>
    <hr>  
 
 
@@ -156,74 +156,9 @@ const d = new Date();
 document.getElementById("date&time").innerHTML = d;
 </script>
 
-<!DOCTYPE html>
-<html>
-<head>
- <title>Change Button Colour</title>
-</head>
-<body>
- <button id="colorButton">Click me to change colour</button>
-<script>
- // Get a reference to the button element
- var button = document.getElementById("colorButton");
- // Function to change the button color
- function changeColor() {
- // Generate a random color (hexadecimal)
- var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
- 
- // Set the button's background color to the random color
- button.style.backgroundColor = randomColor;
- }
- // Add a click event listener to the button
- button.addEventListener("click", changeColor);
- </script>
-</body>
-</html>
-<head>
+
   
-</head>
-//pie chart start
 
-<!DOCTYPE html>
-<html>
-<script src="https://www.gstatic.com/charts/loader.js"></script>
-
-<body>
-<div
-id="myChart" style="width:100%; max-width:600px; height:500px;">
-</div>
-
-<script>
-google.charts.load('current', {'packages':['corechart']});
-google.charts.setOnLoadCallback(drawChart);
-
-function drawChart() {
-
-// Set Data
-const data = google.visualization.arrayToDataTable([
-  ['Contry', 'Mhl'],
-  ['Italy',54.8],
-  ['France',48.6],
-  ['Spain',44.4],
-  ['USA',23.9],
-  ['Argentina',14.5]
-]);
-
-// Set Options
-const options = {
-  title:'World Wide Wine Production'
-};
-
-// Draw
-const chart = new google.visualization.PieChart(document.getElementById('myChart'));
-chart.draw(data, options);
-
-}
-</script>
-
-</body>
-</html>
-//pie chart end
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
@@ -297,10 +232,10 @@ When a satellite with active remote sensing technology emits a pulse of radiatio
 back is known as backscattered radiation (Figure 4),<br>
   <img src="Backscattervisual.png" alt="Banner" width="500" height="250">
   <- Backscattered Radiation <a href="#(GISER,2022)">(GISER,2022)</a>
-<br>there can be three main types of measurements of backscattered radiation <a href="#(GISGeography,2023)">(GISGeography,2023)</a>: 
-• Specular reflection  
-• Diffuse scattering 
-• Double Bounce 
+<br>there can be three main types of measurements of backscattered radiation <a href="#(GISGeography,2023)">(GISGeography,2023)</a>:<br> 
+• Specular reflection <br> 
+• Diffuse scattering <br>
+• Double Bounce <br>
 
 Specular reflection is where there are dark spots in the image (figure 1). In this case the radiation has reflected on a 
 smooth surface, such as rivers or paved surfaces, leading too little to no radiation being sent back to the sensor as 
