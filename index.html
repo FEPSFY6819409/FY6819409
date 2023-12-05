@@ -318,11 +318,11 @@ Figure X <a href="#(Bouvet et al,2018)">(Bouvet et al,2018)</a>.
   }
 
   function nextSlide() {
-    currentSlide = (currentSlide + 1)% slideImages.length;
+    currentSlide = (currentSlide + 1) % slideImages.length;
     showSlide();
   }
     function prevSlide() {
-      currentSlide = (currentSlide - 1 + SlideImages.length;
+      currentSlide = (currentSlide - 1 + slideImages.length;
       showSlide();
     }
     // Function to show a specific slide based on the button clicked
@@ -334,11 +334,12 @@ Figure X <a href="#(Bouvet et al,2018)">(Bouvet et al,2018)</a>.
     showSlide();
                 
   </script>
+  
   <div id="slide-container">
-    <img id="slide" src="slide1,jpg" alt="Slide 1" style="width100%; max-width:800px;">
+    <img id="slide" src="slide1.jpg" alt="Slide 1" style="width:100%; max-width:800px;">
 
   <! -- Previous and Next buttons container -->
-  <div clss="button-container">
+  <div class="button-container">
     <button class="button" onclick="prevSlide()">Previous</button>
     <button class="button" onclick="nextSlide()">Next</button>
   </div>
